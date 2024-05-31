@@ -1,4 +1,4 @@
-﻿namespace Zonit.Extensions.Identity.Abstractions.Models;
+﻿namespace Zonit.Extensions.Identity;
 
 public class CredentialModel
 {
