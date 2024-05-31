@@ -1,6 +1,4 @@
-﻿using Zonit.Extensions.Identity.Abstractions.Models;
-
-namespace Zonit.Extensions.Identity;
+﻿namespace Zonit.Extensions.Identity;
 
 public interface IAuthenticatedProvider
 {
