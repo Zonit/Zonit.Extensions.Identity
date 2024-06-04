@@ -1,5 +1,5 @@
 ﻿using Microsoft.AspNetCore.Components;
-using Zonit.Extensions.Identity.Abstractions.Models;
+using Zonit.Extensions.Identity;
 using Zonit.Extensions.Identity.Repositories;
 
 namespace Zonit.Extensions;

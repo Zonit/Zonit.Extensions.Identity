@@ -1,5 +1,4 @@
-﻿using Zonit.Extensions.Identity.Abstractions.Models;
-using Zonit.Extensions.Identity.Repositories;
+﻿using Zonit.Extensions.Identity.Repositories;
 
 namespace Zonit.Extensions.Identity.Services;
 

@@ -1,6 +1,4 @@
-﻿using Zonit.Extensions.Identity.Abstractions.Models;
-
-namespace Zonit.Extensions.Identity.Repositories;
+﻿namespace Zonit.Extensions.Identity.Repositories;
 
 internal class AuthenticatedRepository : IAuthenticatedRepository
 {
