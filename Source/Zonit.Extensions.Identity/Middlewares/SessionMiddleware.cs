@@ -19,15 +19,19 @@ internal class SessionMiddleware(RequestDelegate _next)
             return;
         }
 
-        var session = await _session.GetByTokenAsync(sessionValue);
-
-        if(session is null)
+        // If there is already a user state then there is no point in reloading it. Just load the data in the first Request.
+        if (userRepository.User is null)
         {
-            await _next(httpContext);
-            return;
-        }
+            var session = await _session.GetByTokenAsync(sessionValue);
 
-        userRepository.Inicjalize(session);
+            if(session is null)
+            {
+                await _next(httpContext);
+                return;
+            }
+
+            userRepository.Inicjalize(session);
+        }
 
         await _next(httpContext);
         return;
