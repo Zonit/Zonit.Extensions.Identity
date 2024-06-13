@@ -1,7 +1,7 @@
-﻿namespace Zonit.Extensions.Identity.Abstractions.Entities;
+﻿namespace Zonit.Extensions.Identity;
 
 public interface IUserEntity
 {
-    public User? User { get; }
+    public UserModel? User { get; init; }
     public Guid? UserId { get; set; }
 }
