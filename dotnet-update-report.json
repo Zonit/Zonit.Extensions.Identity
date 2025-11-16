@@ -1,21 +1,46 @@
 {
+  "Timestamp": "2025-11-16 03:56:00",
+  "PackageChanges": [
+    {
+      "Package": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Framework": "net8.0",
+      "OldVersion": "10.0.0",
+      "NewVersion": "8.0.2"
+    },
+    {
+      "Package": "Microsoft.Extensions.Hosting",
+      "Framework": "net8.0",
+      "OldVersion": "10.0.0",
+      "NewVersion": "8.0.1"
+    },
+    {
+      "Package": "Microsoft.Extensions.DependencyInjection.Abstractions",
+      "Framework": "net9.0",
+      "OldVersion": "10.0.0",
+      "NewVersion": "9.0.11"
+    },
+    {
+      "Package": "Microsoft.Extensions.Hosting",
+      "Framework": "net9.0",
+      "OldVersion": "10.0.0",
+      "NewVersion": "9.0.11"
+    }
+  ],
   "PackagesFound": 2,
-  "PackageChanges": [],
-  "Summary": {
-    "CommonPackages": 0,
-    "PackagesConfigured": 2,
-    "FrameworkSpecificPackages": 2,
-    "PackagesChanged": 0,
-    "DirectoryPackagesPropsUpdated": true,
-    "FrameworksSet": "net8.0;net9.0;net10.0",
-    "ProjectsUpdated": 2
-  },
-  "ChangeSummaryText": "No package version changes - this might be a new setup or no updates available",
+  "ProjectsFound": 2,
   "TargetFrameworks": [
     "net8.0",
     "net9.0",
     "net10.0"
   ],
-  "ProjectsFound": 2,
-  "Timestamp": "2025-11-15 20:46:28"
+  "Summary": {
+    "CommonPackages": 0,
+    "DirectoryPackagesPropsUpdated": true,
+    "ProjectsUpdated": 2,
+    "FrameworkSpecificPackages": 2,
+    "PackagesConfigured": 2,
+    "FrameworksSet": "net8.0;net9.0;net10.0",
+    "PackagesChanged": 4
+  },
+  "ChangeSummaryText": "Microsoft.Extensions.DependencyInjection.Abstractions [net8.0]: 10.0.0 → 8.0.2\nMicrosoft.Extensions.DependencyInjection.Abstractions [net9.0]: 10.0.0 → 9.0.11\nMicrosoft.Extensions.Hosting [net8.0]: 10.0.0 → 8.0.1\nMicrosoft.Extensions.Hosting [net9.0]: 10.0.0 → 9.0.11"
 }
