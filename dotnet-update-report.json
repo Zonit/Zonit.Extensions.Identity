@@ -1,21 +1,22 @@
 {
   "Summary": {
-    "FrameworkSpecificPackages": 2,
-    "PackagesConfigured": 2,
     "FrameworksSet": "net8.0;net9.0;net10.0",
-    "PackagesChanged": 0,
     "CommonPackages": 0,
+    "PackagesConfigured": 2,
+    "ProjectsUpdated": 2,
     "DirectoryPackagesPropsUpdated": true,
-    "ProjectsUpdated": 2
+    "PackagesChanged": 0,
+    "FrameworkSpecificPackages": 2,
+    "PreservedPrivateAssets": 0
   },
+  "Timestamp": "2025-11-17 06:14:21",
+  "ChangeSummaryText": "No package version changes - packages may already be up to date",
+  "PackageChanges": [],
+  "ProjectsFound": 2,
+  "PackagesFound": 2,
   "TargetFrameworks": [
     "net8.0",
     "net9.0",
     "net10.0"
-  ],
-  "ProjectsFound": 2,
-  "PackagesFound": 2,
-  "ChangeSummaryText": "No package version changes - packages may already be up to date",
-  "PackageChanges": [],
-  "Timestamp": "2025-11-17 05:23:40"
+  ]
 }
